@@ -2,15 +2,15 @@
 
 Este script es una aplicación gráfica en Python que calcula el costo de envío basado en diferentes planes de envío y el peso del paquete ingresado por el usuario. Utiliza la biblioteca tkinter para crear la interfaz gráfica y ttkbootstrap para mejorar el aspecto visual con temas modernos.
 
-##Componentes principales del script:
+# Componentes principales del script:
 
-##Clases para modelar planes y tarifas de envío:
+## Clases para modelar planes y tarifas de envío:
 
 WeightTier: Representa un rango de peso y su precio por libra.
 
 ShippingPlan: Representa un plan de envío, incluyendo el nombre de la compañía y servicio, las tarifas por peso, y posibles cargos fijos o planos. Tiene un método calc_cost() que calcula el costo total basado en el peso proporcionado.
 
-##Planes de envío definidos:
+## Planes de envío definidos:
 
 ground: Envío terrestre con diferentes tarifas según el peso y un cargo fijo de $20.
 
@@ -18,7 +18,7 @@ premium: Envío terrestre premium sin tarifas por peso, solo un cargo fijo de $1
 
 avion_basic: Envío por avión con tarifas diferenciadas, sin cargo fijo.
 
-##Interfaz gráfica (ShippingApp):
+## Interfaz gráfica (ShippingApp):
 
 Tiene una ventana principal con un tema oscuro (darkly).
 Entrada para que el usuario ingrese el peso del paquete.
@@ -34,7 +34,7 @@ La opción de envío más barata.
 
 Todos los planes de envío y sus costos correspondientes.
 
-##Funcionalidad principal:
+## Funcionalidad principal:
 
 Cuando el usuario hace clic en "Calculate Cheapest", la aplicación:
 
