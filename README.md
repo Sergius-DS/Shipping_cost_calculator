@@ -2,7 +2,9 @@
 
 Este script es una aplicación gráfica en Python que calcula el costo de envío basado en diferentes planes de envío y el peso del paquete ingresado por el usuario. Utiliza la biblioteca tkinter para crear la interfaz gráfica y ttkbootstrap para mejorar el aspecto visual con temas modernos.
 
-# Componentes principales del script:
+# GitHub Actions:
+
+Este flujo de trabajo de GitHub Actions, llamado **"Lint and Format"**, revisa automáticamente el estilo y los errores del código Python al enviar y extraer solicitudes a la rama principal. Verifica el formato del código con Black y realiza comprobaciones de calidad con Flake8, incluyendo errores de sintaxis, sangría, importaciones no utilizadas, nombres indefinidos y complejidad del código (máximo 10). También establece una longitud máxima de línea de 79 caracteres para mantener la coherencia de los estándares de codificación.
 
 ## Clases para modelar planes y tarifas de envío:
 
